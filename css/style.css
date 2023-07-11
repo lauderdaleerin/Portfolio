@@ -21,3 +21,11 @@ p {
     font-family: 'Ruda', 'Sans Serif';
     color: white;
 }
+
+body {
+    background-image: url('/images/bg-pattern.png')
+}
+
+.ycenter {
+    padding-top: 45vh;
+}
