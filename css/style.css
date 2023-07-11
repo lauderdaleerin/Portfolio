@@ -1,0 +1,11 @@
+:root {
+    --med-purple: #51376A;
+    --dk-purple: #251732;
+    --med-green: #457370;
+    --dk-green: #003938;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Abel', 'Sans Serif';
+}
