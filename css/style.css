@@ -8,4 +8,16 @@
 
 h1, h2, h3 {
     font-family: 'Abel', 'Sans Serif';
+    color: white;
+}
+
+h4, a, a:visited a:hover a:link {
+    font-family: 'Ruda', 'Sans Serif';
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Ruda', 'Sans Serif';
+    color: white;
 }
