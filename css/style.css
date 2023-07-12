@@ -6,10 +6,16 @@
 
 }
 
+
+
+
 h1, h2, h3 {
     font-family: 'Abel', 'Sans Serif';
     color: white;
 }
+
+
+
 
 h4, a, a:visited a:hover a:link {
     font-family: 'Ruda', 'Sans Serif';
@@ -17,14 +23,28 @@ h4, a, a:visited a:hover a:link {
     text-decoration: underline;
 }
 
+
+
+
 p {
     font-family: 'Ruda', 'Sans Serif';
     color: white;
 }
 
-body {
-    background-image: url('/images/bg-pattern.png')
+@keyframes bg-image {
+    0% {background-image: url('/images/bg-pattern.png');}
+    50% {background-image: url('/images/bg-pattern2.png');}
+    100% {background-image: url('/images/bg-pattern3.png');}
 }
+
+body {
+    background-image: url('/images/bg-pattern3.png');
+    animation-name: bg-image;
+    animation-duration: 4s;
+}
+
+
+
 
 .ycenter {
     padding-top: 45vh;
