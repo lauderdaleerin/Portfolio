@@ -40,12 +40,27 @@ p {
 body {
     background-image: url('/images/bg-pattern3.png');
     animation-name: bg-image;
+    animation-delay: 1s;
     animation-duration: 4s;
 }
 
 
 
-
-.ycenter {
+.logo {
+    display: block;
+    margin: auto;
     padding-top: 45vh;
+    width: 25%;
+    height: auto;
+    transition-property: all;
+    transition-delay: 5s;
+    transition-duration: 1s;
+ 
+}
+
+.logo::after {
+    margin-right: 5px;
+    padding-top: 5px;
+    width: 10%;
+    height: auto;
 }
