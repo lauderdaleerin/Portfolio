@@ -76,3 +76,10 @@ body {
 .ul {
     list-style-type: none;
 }
+
+.btncustom {
+    background-color: var(--med-purple) !important;
+    width: fit-content !important;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0 !important;
+}
