@@ -25,7 +25,7 @@ h4, a, a:visited a:hover a:link {
 
 
 
-p {
+p, li {
     font-family: 'Ruda', 'Sans Serif';
     color: white !important;
 }
