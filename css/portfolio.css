@@ -4,3 +4,20 @@
     color: white;
     font-size: 18px;
 }
+
+.navarrow {
+    background-color: var(--dk-green);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contentgreen {
+    position: relative;
+    background-color: var(--dk-green);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    width: max-content;
+    max-width: 470px;
+    margin-bottom: 10vh;
+}
