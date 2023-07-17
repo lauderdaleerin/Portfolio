@@ -20,7 +20,7 @@
 
     margin-bottom: 10vh;
     width: 100%;
-    max-width: 75%;
+
 }
 
 .contentmedp {
@@ -29,7 +29,7 @@
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 10vh;
     width: 100%;
-    max-width: 75%;
+
 }
 
 .sectionh1 {
@@ -41,7 +41,7 @@
 .sectionh2 {
     background-color: var(--dk-purple);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    margin-left: 10%;
+
 }
 
 .csimage {
