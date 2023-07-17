@@ -2,7 +2,7 @@
     font-family: 'Ruda', 'Sans Serif';
     text-decoration: underline;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navarrow {
@@ -17,7 +17,36 @@
     position: relative;
     background-color: var(--dk-green);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: max-content;
-    max-width: 470px;
+
     margin-bottom: 10vh;
+    width: 100%;
+    max-width: 75%;
+}
+
+.contentmedp {
+    position: relative;
+    background-color: var(--med-purple);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10vh;
+    width: 100%;
+    max-width: 75%;
+}
+
+.sectionh1 {
+        background-color: var(--med-purple);
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.sectionh2 {
+    background-color: var(--dk-purple);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 10%;
+}
+
+.csimage {
+    width: 50%;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
