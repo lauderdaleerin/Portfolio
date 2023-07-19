@@ -17,7 +17,6 @@
     position: relative;
     background-color: var(--dk-green);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-
     margin-bottom: 10vh;
     width: 100%;
 
@@ -50,9 +49,27 @@
 
 }
 
+.sectionh4 {
+        background-color: var(--dk-green);
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+        width: max-content;
+        text-align: center;
+
+    
+}
+
 .csimage {
     width: 50%;
     min-width: 250px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.sketch {
+    width: 30%;
+    height: auto;
+}
+
+.stackedrow {
+    margin-top:-50%;
 }
