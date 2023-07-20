@@ -65,8 +65,23 @@
     margin-right: auto;
 }
 
-.sketch {
+.thirds {
     width: 30%;
+    height: auto;
+}
+
+.half {
+    width: 45%;
+    height: auto;
+}
+
+.map1 {
+    width: 50%;
+    height: 100%;
+}
+
+.map2 {
+    width: 35%;
     height: auto;
 }
 
