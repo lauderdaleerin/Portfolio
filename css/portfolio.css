@@ -17,7 +17,6 @@
     position: relative;
     background-color: var(--dk-green);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    margin-bottom: 10vh;
     width: 100%;
 
 }
@@ -65,9 +64,15 @@
     margin-right: auto;
 }
 
+
 .thirds {
     width: 30%;
     height: auto;
+}
+
+.twothird {
+    width: 64%;
+    height: auto
 }
 
 .half {
