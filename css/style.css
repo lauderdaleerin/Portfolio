@@ -52,14 +52,6 @@ body {
     width: max-content;
 }
 
-.content {
-    position: relative;
-    background-color: var(--dk-purple);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: max-content;
-    height: fit-content;
-}
-
 .spacing {
     margin-bottom: 50vh;
 }
@@ -101,25 +93,28 @@ body {
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
- /*h1 & h3*/ .mpheader {
+ /*h2*/ .mpheader {
     background-color: var(--med-purple);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
     width: max-content;
-text-align: center;
+    text-align: center;
+    margin-bottom: 0;
 
 }
 
- /*h2*/ .dpheader {
+ /*h3*/ .dpheader {
 background-color: var(--dk-purple);
 box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 width: max-content;
 text-align: center;
+margin-bottom: 0;
 
 }
 
  /*h4*/ .dgheader {
 background-color: var(--dk-green);
 box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+margin-bottom: 0;
 
 }
 
@@ -137,7 +132,16 @@ box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
     background-color: var(--dk-green);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
+    margin-bottom: 0;
 
+}
+
+.dpcontent {
+    position: relative;
+    background-color: var(--dk-purple);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0;
+    width: fit-content;
 }
 
 .mpcontent {
@@ -145,14 +149,16 @@ box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
     background-color: var(--med-purple);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
-
+    margin-bottom: 0;
 }
 
 .mgcontent {
     position: relative;
     background-color: var(--med-green);
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: 100%
+    width: 100%;
+    margin-bottom: 0;
+
 }
 
 .dpcircle {
