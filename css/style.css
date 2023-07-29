@@ -177,10 +177,49 @@ margin-bottom: 0;
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
-
+.homephoto {
+    max-width: 340px;
+}
 
 .pmbahero {
     margin-top: -35%;
     
 
+}
+
+.csimage {
+    width: 50%;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.thirds {
+    width: 30%;
+    height: auto;
+}
+
+.twothird {
+    width: 64%;
+    height: auto
+}
+
+.half {
+    width: 45%;
+    height: auto;
+}
+
+.map1 {
+    width: 50%;
+    height: 100%;
+}
+
+.map2 {
+    width: 35%;
+    height: auto;
+}
+
+.stackedrow {
+    margin-top:-50%;
 }
