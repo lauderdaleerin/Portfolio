@@ -1,7 +1,7 @@
 @keyframes bg-image {
-    0% {background-image: url('images/bg-pattern.png');}
-    50% {background-image: url('images/bg-pattern2.png');}
-    100% {background-image: url('images/bg-pattern3.png');}
+    0% {background-image: url('https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern.png?raw=true');}
+    50% {background-image: url('https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern2.png?raw=true');}
+    100% {background-image: url('https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern3.png?raw=true');}
 }
 
 body {
