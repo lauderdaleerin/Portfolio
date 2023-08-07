@@ -73,9 +73,25 @@ body {
 
 }
 
-.offcanvas{
+.offcanvas {
     height:50% !important;
 }  
+
+.mobilenav {
+    display:contents;
+    
+}
+
+.dnav {
+    display:none;
+    z-index: 10;
+    
+}
+
+.navbutton {
+    height: 40px;
+    width: 100%;
+}
 
 
 .btncustom{
@@ -222,4 +238,24 @@ margin-bottom: 0;
 
 .stackedrow {
     margin-top:-50%;
+}
+
+@media (min-width: 768px) { 
+    .mobilenav {
+        display: none;
+    }
+    .dnav {
+        display:contents;
+        
+    }
+
+    .navbutton {
+        width: 40px;
+        height: 100%;
+    }
+
+    .offcanvas {
+        height: 100%;
+        width: 25%;
+    }
 }
