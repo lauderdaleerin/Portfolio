@@ -60,6 +60,8 @@ body {
 .navigation {
     background-color: var(--dk-purple);
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    border-radius: 0;
 
 }
 
@@ -75,18 +77,11 @@ body {
 
 .offcanvas {
     height:50% !important;
+    background-color: var(--dk-purple) !important;  
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }  
 
-.mobilenav {
-    display:contents;
-    
-}
 
-.dnav {
-    display:none;
-    z-index: 10;
-    
-}
 
 .navbutton {
     height: 40px;
@@ -240,15 +235,12 @@ margin-bottom: 0;
     margin-top:-50%;
 }
 
-@media (min-width: 768px) { 
-    .mobilenav {
-        display: none;
-    }
-    .dnav {
-        display:contents;
-        
-    }
+@media (min-width: 768px) {
+    .navigation {
+        width: 25%;
+        border-radius: 10px 10px 0 0;
 
+    }
     .navbutton {
         width: 40px;
         height: 100%;
@@ -257,6 +249,7 @@ margin-bottom: 0;
     .offcanvas {
         height: 100%;
         width: 25%;
+        border-radius: 10px 10px 0 0;
     }
     
 }
