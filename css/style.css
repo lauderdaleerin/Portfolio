@@ -7,13 +7,20 @@
 }
 
 
-
+/*--Text ----
+------------------------------------*/
 
 h1, h2, h3 {
     font-family: 'Abel', 'Sans Serif';
     color: white !important;
 }
 
+.h3 {
+    font-family: 'Ruda', 'Sans Serif';
+    text-decoration: underline;
+    color: white;
+    font-size: medium;
+}
 
 
 h4, a, a:visited a:hover a:link {
@@ -21,8 +28,6 @@ h4, a, a:visited a:hover a:link {
     color: white !important;
     text-decoration: underline;
 }
-
-
 
 
 p, li {
@@ -52,6 +57,18 @@ body {
     width: max-content;
 }
 
+
+.ul {
+    list-style-type: none;
+}
+
+
+
+
+/*----------Layout & Navigation -------
+-----------------------------*/
+
+
 .spacing {
     margin-bottom: 50vh;
 }
@@ -70,15 +87,6 @@ body {
 }
 
 
-.ul {
-    list-style-type: none;
-}
-
-.down-arrow{
-    background: transparent;
-
-}
-
 .offcanvas {
     height:50% !important;
     background-color: var(--med-purple) !important;  
@@ -86,6 +94,16 @@ body {
 }  
 
 
+
+
+
+/*---- Buttons--------
+-------------------------------------*/
+
+.down-arrow{
+    background: transparent;
+
+}
 
 .navbutton {
     height: 40px;
@@ -104,16 +122,21 @@ body {
     background-color: var(--dk-purple) !important;
 }
 
-.hard-shadow {
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-}
 
- /*h2*/ .mpheader {
-    background-color: var(--med-purple);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: max-content;
-    text-align: center;
-    margin-bottom: 0;
+
+
+
+
+/*-----------Content boxes-----
+---------------------*/
+
+
+/*h2*/ .mpheader {
+background-color: var(--med-purple);
+box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+width: max-content;
+text-align: center;
+margin-bottom: 0;
 
 }
 
@@ -131,14 +154,6 @@ background-color: var(--dk-green);
 box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 margin-bottom: 0;
 
-}
-
-
-.h3 {
-    font-family: 'Ruda', 'Sans Serif';
-    text-decoration: underline;
-    color: white;
-    font-size: medium;
 }
 
 
@@ -167,9 +182,6 @@ margin-bottom: 0;
     margin-bottom: 0;
 }
 
-.bg-medp {
-    background-color: var(--med-purple);
-}
 
 .mgcontent {
     position: relative;
@@ -196,6 +208,16 @@ margin-bottom: 0;
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
+
+.bg-medp {
+    background-color: var(--med-purple);
+}
+
+.hard-shadow {
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+
 .homephoto {
     max-width: 340px;
 }
@@ -205,6 +227,11 @@ margin-bottom: 0;
     
 
 }
+
+
+/*---------Content sizing--------
+----------------------*/
+
 
 .csimage {
     width: 50%;
@@ -243,10 +270,10 @@ margin-bottom: 0;
     margin-top:-50%;
 }
 
-.gif {
-    width: 45%;
-    height: auto;
-}
+
+
+/*-------------Desktop Response-------
+-------------------------------*/
 
 @media (min-width: 768px) {
     .navigation {
@@ -267,10 +294,6 @@ margin-bottom: 0;
 
     .view {
         width: 50%;
-    }
-
-    .gif {
-        width: 25%
     }
     
 }
