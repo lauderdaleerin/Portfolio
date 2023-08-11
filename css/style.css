@@ -33,6 +33,7 @@ h4, a, a:visited a:hover a:link {
 p, li {
     font-family: 'Ruda', 'Sans Serif';
     color: white !important;
+    font-size: 1rem;
 }
 
 body {
@@ -270,6 +271,14 @@ margin-bottom: 0;
     margin-top:-50%;
 }
 
+.portfolioimage {
+    width:100%;
+    height: auto;
+}
+
+.pmbahome {
+    width:45%;
+}
 
 
 /*-------------Desktop Response-------
@@ -295,5 +304,21 @@ margin-bottom: 0;
     .view {
         width: 50%;
     }
-    
+
+    .pmbahome {
+        width: 35%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width:992px) {
+        
+    .portfolioimage {
+        width:50%;
+        height:auto;
+    }
+
+    p, a, li {
+        font-size: 1.5rem;
+    }
 }
