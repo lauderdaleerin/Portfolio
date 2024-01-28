@@ -59,8 +59,13 @@ body {
   width: max-content;
 }
 
-.ul {
+ul {
+  display: inherit;
   list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-left: 0 !important;
 }
 
 /*----------Layout & Navigation -------
@@ -86,6 +91,32 @@ body {
   position: fixed;
   bottom: 0%;
   height: 50px;
+}
+.nav-box-open {
+  position: fixed;
+  bottom: 0%;
+  height: 50%;
+  width: 100%;
+  background-color: var(--dk-purple);
+}
+
+.nav-item {
+  display: block;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  z-index: -2;
 }
 
 .nav-arrow-mobile {
@@ -289,10 +320,19 @@ body {
   }
   .nav-arrow-desktop {
     display: block;
-    top: 45%;
+    top: 50%;
+  }
+  .nav-button-close {
+    position: absolute;
+    right: 0;
+    top: 50%;
   }
   .nav-arrow-mobile {
     display: none;
+  }
+  .nav-box-open {
+    width: 25%;
+    height: 100%;
   }
 
   .offcanvas {
