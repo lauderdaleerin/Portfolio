@@ -1,324 +1,325 @@
 :root {
-    --med-purple: #51376A;
-    --dk-purple: #251732;
-    --med-green: #457370;
-    --dk-green: #003938;
-
+  --med-purple: #51376a;
+  --dk-purple: #251732;
+  --med-green: #457370;
+  --dk-green: #003938;
 }
-
 
 /*--Text ----
 ------------------------------------*/
 
-h1, h2, h3 {
-    font-family: 'Abel', 'Sans Serif';
-    color: white !important;
+h1,
+h2,
+h3 {
+  font-family: "Abel", "Sans Serif";
+  color: white !important;
 }
 
 .h3 {
-    font-family: 'Ruda', 'Sans Serif';
-    text-decoration: underline;
-    color: white;
-    font-size: medium;
+  font-family: "Ruda", "Sans Serif";
+  text-decoration: underline;
+  color: white;
+  font-size: medium;
 }
 
-
-h4, a, a:visited a:hover a:link {
-    font-family: 'Ruda', 'Sans Serif';
-    color: white !important;
-    text-decoration: underline;
+h4,
+a,
+a:visited a:hover a:link {
+  font-family: "Ruda", "Sans Serif";
+  color: white !important;
+  text-decoration: underline;
 }
 
-
-p, li {
-    font-family: 'Ruda', 'Sans Serif';
-    color: white !important;
-    font-size: 1rem;
+p,
+li {
+  font-family: "Ruda", "Sans Serif";
+  color: white !important;
+  font-size: 1rem;
 }
 
 body {
-    background-image: url('https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern3.png?raw=true');
+  background-image: url("https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern3.png?raw=true");
 }
 
 .logo {
-    position: absolute;
-    display: block;
-    top: 10px;
-    right: 10px;
-    width: 10%;
-    height: auto;
-    min-width: 150px;
+  position: absolute;
+  display: block;
+  top: 10px;
+  right: 10px;
+  width: 10%;
+  height: auto;
+  min-width: 150px;
 }
 
 .title {
-    margin-top: 25vh;
-    position: relative;
-    background-color: var(--med-purple);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: max-content;
+  margin-top: 25vh;
+  position: relative;
+  background-color: var(--med-purple);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  width: max-content;
 }
-
 
 .ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-
-
-
 
 /*----------Layout & Navigation -------
 -----------------------------*/
 
-
 .spacing {
-    margin-bottom: 50vh;
+  margin-bottom: 50vh;
 }
 
-
 .navigation {
-    background-color: var(--med-purple);
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    border-radius: 0;
+  background-color: var(--med-purple);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  border-radius: 0;
+}
 
+/*-Nav test-*/
+
+.nav-box {
+  background-color: var(--dk-purple);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  height: 50px;
+}
+
+.nav-arrow-mobile {
+  display: block;
+}
+.nav-arrow-desktop {
+  display: none;
 }
 
 .view {
-    width: 100%;
+  width: 100%;
 }
 
-
 .offcanvas {
-    height:50% !important;
-    background-color: var(--med-purple) !important;  
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
-}  
-
-
-
-
+  height: 50% !important;
+  background-color: var(--med-purple) !important;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 /*---- Buttons--------
 -------------------------------------*/
 
-.down-arrow{
-    background: transparent;
-
+.down-arrow {
+  background: transparent;
 }
 
 .navbutton {
-    height: 40px;
-    width: 100%;
+  height: 40px;
+  width: 100%;
 }
 
-
-.btncustom{
-    background-color: var(--med-purple) !important;
-    width: fit-content !important;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 0 !important;
+.btncustom {
+  background-color: var(--med-purple) !important;
+  width: fit-content !important;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0 !important;
 }
 
 .btndark {
-    background-color: var(--dk-purple) !important;
+  background-color: var(--dk-purple) !important;
 }
-
-
-
-
-
 
 /*-----------Content boxes-----
 ---------------------*/
 
-
-/*h2*/ .mpheader {
-background-color: var(--med-purple);
-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-width: max-content;
-text-align: center;
-margin-bottom: 0;
-
+/*h2*/
+.mpheader {
+  background-color: var(--med-purple);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  width: max-content;
+  text-align: center;
+  margin-bottom: 0;
 }
 
- /*h3*/ .dpheader {
-background-color: var(--dk-purple);
-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-width: max-content;
-text-align: center;
-margin-bottom: 0;
-
+/*h3*/
+.dpheader {
+  background-color: var(--dk-purple);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  width: max-content;
+  text-align: center;
+  margin-bottom: 0;
 }
 
- /*h4*/ .dgheader {
-background-color: var(--dk-green);
-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-margin-bottom: 0;
-
+/*h4*/
+.dgheader {
+  background-color: var(--dk-green);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
 }
-
 
 .dgcontent {
-    position: relative;
-    background-color: var(--dk-green);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    margin-bottom: 0;
-
+  position: relative;
+  background-color: var(--dk-green);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .dpcontent {
-    position: relative;
-    background-color: var(--dk-purple);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    margin-bottom: 0;
-    width: fit-content;
+  position: relative;
+  background-color: var(--dk-purple);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
+  width: fit-content;
 }
 
 .mpcontent {
-    position: relative;
-    background-color: var(--med-purple);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    margin-bottom: 0;
+  position: relative;
+  background-color: var(--med-purple);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  margin-bottom: 0;
 }
 
-
 .mgcontent {
-    position: relative;
-    background-color: var(--med-green);
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    margin-bottom: 0;
-
+  position: relative;
+  background-color: var(--med-green);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .dpcircle {
-    background-color: var(--dk-purple);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  background-color: var(--dk-purple);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .dgcircle {
-    background-color: var(--dk-green);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  background-color: var(--dk-green);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
-
 .bg-medp {
-    background-color: var(--med-purple);
+  background-color: var(--med-purple);
 }
 
 .hard-shadow {
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
-
 .homephoto {
-    max-width: 340px;
+  max-width: 340px;
 }
 
 .pmbahero {
-    margin-top: -35%;
-    
-
+  margin-top: -35%;
 }
-
 
 /*---------Content sizing--------
 ----------------------*/
 
-
 .csimage {
-    width: 50%;
-    min-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  min-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 .thirds {
-    width: 30%;
-    height: auto;
+  width: 30%;
+  height: auto;
 }
 
 .twothird {
-    width: 64%;
-    height: auto
+  width: 64%;
+  height: auto;
 }
 
 .half {
-    width: 45%;
-    height: auto;
+  width: 45%;
+  height: auto;
 }
 
 .map1 {
-    width: 50%;
-    height: 100%;
+  width: 50%;
+  height: 100%;
 }
 
 .map2 {
-    width: 35%;
-    height: auto;
+  width: 35%;
+  height: auto;
 }
 
 .stackedrow {
-    margin-top:-50%;
+  margin-top: -50%;
 }
 
 .portfolioimage {
-    width:100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .pmbahome {
-    width:45%;
+  width: 45%;
 }
-
 
 /*-------------Desktop Response-------
 -------------------------------*/
 
 @media (min-width: 768px) {
-    .navigation {
-        width: 25%;
-        border-radius: 10px 10px 0 0;
+  .navigation {
+    width: 25%;
+    border-radius: 10px 10px 0 0;
+  }
+  .navbutton {
+    width: 40px;
+    height: 100%;
+  }
 
-    }
-    .navbutton {
-        width: 40px;
-        height: 100%;
-    }
+  /*-Navbox test-*/
+  .nav-box {
+    width: 50px;
+    height: 100%;
+    left: 0;
+  }
+  .nav-arrow-desktop {
+    display: block;
+    top: 45%;
+  }
+  .nav-arrow-mobile {
+    display: none;
+  }
 
-    .offcanvas {
-        height: 100%;
-        width: 25%;
-        border-radius: 10px 10px 0 0;
-    }
+  .offcanvas {
+    height: 100%;
+    width: 25%;
+    border-radius: 10px 10px 0 0;
+  }
 
-    .view {
-        width: 50%;
-    }
+  .view {
+    width: 50%;
+  }
 
-    .pmbahome {
-        width: 35%;
-        margin-bottom: 5%;
-    }
+  .pmbahome {
+    width: 35%;
+    margin-bottom: 5%;
+  }
 }
 
-@media (min-width:992px) {
-        
-    .portfolioimage {
-        width:50%;
-        height:auto;
-    }
+@media (min-width: 992px) {
+  .portfolioimage {
+    width: 50%;
+    height: auto;
+  }
 
-    p, a, li {
-        font-size: 1.5rem;
-    }
+  p,
+  a,
+  li {
+    font-size: 1.5rem;
+  }
 }
