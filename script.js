@@ -19,3 +19,8 @@ const closeNav = function () {
   overlay.classList.add(`hidden`);
 };
 closeButton.addEventListener(`click`, closeNav);
+
+document.addEventListener(`keydown`, function (e) {
+  if (e.key === `Escape` && !navBoxOpenEl.classList.contains(`hidden`))
+    closeNav();
+});

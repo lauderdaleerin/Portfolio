@@ -11,12 +11,12 @@
 h1,
 h2,
 h3 {
-  font-family: "Abel", "Sans Serif";
+  font-family: 'Abel', 'Sans Serif';
   color: white !important;
 }
 
 .h3 {
-  font-family: "Ruda", "Sans Serif";
+  font-family: 'Ruda', 'Sans Serif';
   text-decoration: underline;
   color: white;
   font-size: medium;
@@ -25,20 +25,20 @@ h3 {
 h4,
 a,
 a:visited a:hover a:link {
-  font-family: "Ruda", "Sans Serif";
+  font-family: 'Ruda', 'Sans Serif';
   color: white !important;
   text-decoration: underline;
 }
 
 p,
 li {
-  font-family: "Ruda", "Sans Serif";
+  font-family: 'Ruda', 'Sans Serif';
   color: white !important;
   font-size: 1rem;
 }
 
 body {
-  background-image: url("https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern3.png?raw=true");
+  background-image: url('https://github.com/lauderdaleerin/Portfolio/blob/main/images/bg-pattern3.png?raw=true');
 }
 
 .logo {
@@ -91,6 +91,7 @@ ul {
   position: fixed;
   bottom: 0%;
   height: 50px;
+  z-index: 50;
 }
 .nav-box-open {
   position: fixed;
@@ -98,6 +99,7 @@ ul {
   height: 50%;
   width: 100%;
   background-color: var(--dk-purple);
+  z-index: 51;
 }
 
 .nav-item {
@@ -116,7 +118,7 @@ ul {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(3px);
-  z-index: -2;
+  z-index: 3;
 }
 
 .nav-arrow-mobile {
@@ -320,13 +322,8 @@ ul {
   }
   .nav-arrow-desktop {
     display: block;
-    top: 50%;
   }
-  .nav-button-close {
-    position: absolute;
-    right: 0;
-    top: 50%;
-  }
+
   .nav-arrow-mobile {
     display: none;
   }
