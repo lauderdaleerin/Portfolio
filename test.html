@@ -25,36 +25,27 @@
       <img src="images/Logo.svg" class="logo" alt="ELUX logo" />
     </a>
 
-    <div class = "nav-box d-block">
-      <div class="nav-button-open d-block position-absolute top-50 start-50 translate-middle" role="button" aria-controls="navigation" tabindex="0">
-        <img src="images/arrowup.svg" class="nav-arrow-mobile" alt="Up Arrow">
-        <img src="images/arrowright.svg" class="nav-arrow-desktop" alt="Right Arrow"></div>
-        
-       
 
+
+    <div id ="navigation">
+
+      <div class="h-100 w-100 d-flex flex-column flex-md-row-reverse justify-content-evenly align-items-center">
+          <div class="nav-button-open d-flex " role="button" aria-label="Close" tabindex="0" onclick="show()">
+            <img src ="images/arrowup.svg" class="nav-arrow-mobile" alt="Up Arrow">
+            <img src ="images/arrowright.svg" class="nav-arrow-desktop" alt="Right Arrow">
+          </div>
+
+          <ul class="h-100 d-flex flex-grow-1 flex-column justify-content-evenly align-items-center">
+            <li class="d-flex "><a href="about.html">About</a></li>
+            <li class="d-flex "><a href="skills.html">Skills</a></li>
+            <li class="d-flex "><a href="portfolio.html">Portfolio</a></li>
+            <li class="d-flex "><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        
+    </div>
+    <div class ="overlay hidden"></div>
 
-        <div class="nav-box-open hidden">
-         
-          <div class="d-flex flex-column justify-content-around align-items-center h-100">
 
-            <div class="nav-button-close " role="button" aria-label="Close" tabindex="0">
-              <img src="images/arrowdown.svg" class ="nav-arrow-mobile" alt="Down Arrow">
-              <img src="images/navarrowleft.svg" class ="nav-arrow-desktop position-absolute top-50 end-0 translate-middle-y" alt="Left Arrow">
-             <br>
-            </div>
-
-                <ul class ="d-flex flex-column justify-content-evenly align-items-center h-100">
-
-                    <li class="nav-item"><h2><a href="about.html" class="text-decoration-none">About</a></h2></li>
-                    <li class="nav-item"><h2><a href="skills.html" class="text-decoration-none">Skills</a></h2></li>
-                    <li class="nav-item"><h2><a href="portfolio.html" class="text-decoration-none">Portfolio</a></h2></li>
-                    <li class="nav-item"><h2><a href="contact.html" class="text-decoration-none">Contact</a></h2></li>
-                </ul>
-              </div>
-              </div>
-      <div class ="overlay hidden"></div>
     </div>
     <script src="script.js"></script>
     <script
