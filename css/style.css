@@ -76,7 +76,7 @@ ul {
 }
 
 #navigation {
-  position: sticky;
+  position: fixed;
   height: 500px;
   width: 100%;
   background-color: var(--dk-purple);
