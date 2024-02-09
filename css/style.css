@@ -57,6 +57,7 @@ body {
   background-color: var(--med-purple);
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
   width: max-content;
+  border-radius: 11px;
 }
 
 ul {
@@ -92,7 +93,7 @@ ul {
 
 #navigation ul li a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -149,16 +150,11 @@ ul {
   background: transparent;
 }
 
-.navbutton {
-  height: 40px;
-  width: 100%;
-}
-
 .btncustom {
   background-color: var(--med-purple) !important;
   width: fit-content !important;
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 0 !important;
+  border-radius: 11px;
 }
 
 .btndark {
@@ -175,6 +171,7 @@ ul {
   width: max-content;
   text-align: center;
   margin-bottom: 0;
+  border-radius: 11px;
 }
 
 /*h3*/
@@ -184,6 +181,7 @@ ul {
   width: max-content;
   text-align: center;
   margin-bottom: 0;
+  border-radius: 11px;
 }
 
 /*h4*/
@@ -191,6 +189,7 @@ ul {
   background-color: var(--dk-green);
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
   margin-bottom: 0;
+  border-radius: 11px;
 }
 
 .dgcontent {
@@ -199,6 +198,7 @@ ul {
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
   margin-bottom: 0;
+  border-radius: 11px;
 }
 
 .dpcontent {
@@ -207,6 +207,7 @@ ul {
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
   margin-bottom: 0;
   width: fit-content;
+  border-radius: 11px;
 }
 
 .mpcontent {
@@ -215,6 +216,7 @@ ul {
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
   margin-bottom: 0;
+  border-radius: 11px;
 }
 
 .mgcontent {
@@ -223,6 +225,7 @@ ul {
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
   margin-bottom: 0;
+  border-radius: 11px;
 }
 
 .dpcircle {
@@ -309,37 +312,12 @@ ul {
 -------------------------------*/
 
 @media (min-width: 768px) {
-  .navigation {
-    width: 25%;
-    border-radius: 10px 10px 0 0;
-  }
-  .navbutton {
-    width: 40px;
-    height: 100%;
-  }
-
-  /*-Navbox test-*/
-  .nav-box {
-    width: 50px;
-    height: 100%;
-    left: 0;
-  }
   .nav-arrow-desktop {
     display: block;
   }
 
   .nav-arrow-mobile {
     display: none;
-  }
-  .nav-box-open {
-    width: 25%;
-    height: 100%;
-  }
-
-  .offcanvas {
-    height: 100%;
-    width: 25%;
-    border-radius: 10px 10px 0 0;
   }
 
   .view {
