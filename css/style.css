@@ -177,30 +177,38 @@ ul {
 }
 .slide-imgs {
   position: relative;
+  height: 45rem;
+
   display: flex;
   flex-direction: row;
   width: 100%;
   align-items: stretch;
+  gap: 5rem;
+  padding-left: 5px;
 }
 
 .slide {
-  width: 100%;
+  width: 95%;
   position: absolute;
   background-color: var(--dk-green);
   border-radius: 15px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-  margin-bottom: auto;
+  max-height: 45rem;
+  overflow: hidden;
 
   transition: all 1s;
 }
 .slide > img {
+  display: flex;
+  position: relative;
   border-radius: 15px;
   width: 100%;
-  height: auto;
+  max-height: 50%;
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
 }
 .slider-nav {
@@ -253,6 +261,101 @@ ul {
 .dots-dot-active {
   background-color: var(--dk-green);
   opacity: 1;
+}
+
+.h-a {
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.h-a > img {
+  width: 100%;
+  height: auto;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.num {
+  position: absolute;
+  background-color: var(--dk-green);
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.num-1 {
+  left: 40%;
+  top: 2%;
+}
+
+.num-2 {
+  left: 15%;
+  top: 35%;
+}
+.num-3 {
+  right: 5%;
+  top: 5%;
+}
+
+.num-4 {
+  right: 20%;
+  top: 40%;
+}
+
+.num-5 {
+  right: 5%;
+  bottom: 25%;
+}
+.num-6 {
+  left: 8%;
+  bottom: 10%;
+}
+
+.desc {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  background-color: var(--dk-green);
+  border-radius: 15px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+.desc > h4 {
+  font-size: 1rem;
+}
+
+.desc-1 {
+  left: 47%;
+  top: 8%;
+}
+.desc-2 {
+  left: 21%;
+  top: 40%;
+}
+.desc-3 {
+  right: 5%;
+  top: 12%;
+}
+
+.desc-4 {
+  right: 28%;
+  top: 40%;
+}
+
+.desc-5 {
+  right: 8%;
+  bottom: 35%;
+}
+
+.desc-6 {
+  left: 8%;
+  bottom: 22%;
 }
 
 /*-----------Content boxes-----
