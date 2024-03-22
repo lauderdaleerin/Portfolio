@@ -4,20 +4,34 @@ const nums = document.querySelectorAll(`.num`);
 const descContainer = document.querySelector(`.descs`);
 const descs = document.querySelectorAll(`.desc`);
 
-//add hover event on each num element
-numContainer.addEventListener(`click`, function (e) {
+const numHover = function (e, status) {
   const num = e.target.innerText;
   descs.forEach(d => {
     if (d.dataset.tab !== `${num}`) {
       return;
+    } else if (status === `add`) {
+      d.classList.add(`hidden`);
     } else {
-      d.classList.toggle(`hidden`);
+      d.classList.remove(`hidden`);
     }
   });
+};
+
+numContainer.addEventListener(`mouseover`, function (e) {
+  numHover(e, `remove`);
+  e.target.style.transform = `translateY(-5px)`;
 });
 
-//find num value
+numContainer.addEventListener(`mouseout`, function (e) {
+  numHover(e, `add`);
+  e.target.style.transform = `translateY(0px)`;
+});
 
-//get rid of hidden class on matching dataset valued desc
-
-//rehide desc on mouseout
+numContainer.addEventListener(`touchstart`, function (e) {
+  numHover(e, `remove`);
+  e.target.style.transform = `translateY(-5px)`;
+});
+numContainer.addEventListener(`touchend`, function (e) {
+  numHover(e, `add`);
+  e.target.style.transform = `translateY(0px)`;
+});
