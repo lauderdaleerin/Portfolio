@@ -332,14 +332,12 @@ ul {
   z-index: 1;
   transition: all 1s;
 }
+
 .desc-default {
   top: 0% !important;
   z-index: 0;
 }
-.desc > h4,
-p {
-  font-size: 1rem !important;
-}
+
 @media (max-width: 768px) {
   .desc > h4,
   p {
