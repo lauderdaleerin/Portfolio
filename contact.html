@@ -1,74 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Erin Lauderdale's Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ruda">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    </head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Erin Lauderdale's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/plain.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ruda"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Advent+Pro"
+    />
+    <script defer src="js/sitenav.js"></script>
+    <script defer src="js/copy.js"></script>
+  </head>
 
+  <body>
+    <a href="index.html">
+      <img src="images/Logo.svg" class="logo" alt="ELDEV logo" />
+    </a>
 
-
-    <body>
-        
-        <a href="index.html"> <img src="images/Logo.svg" class="logo" alt="ELUX logo"> </a>
-
-
-        <div class="d-block mx-auto title">
-            <h1 class="text-center p-2">Contact</h1>
+    <div class="page">
+      <div class="content">
+        <div class="flexrow">
+          <div class="title ltpurpbox"><h1>Contact</h1></div>
+          <div class="line"></div>
         </div>
 
-        <div class="view mx-auto">
+        <div class="dkgrnbox">
+          <p>I am always open to new opportunities!</p>
+          <br />
+          <div class="flexrow">
+            <a href="mailto:lauderdale.erin@gmail.com"
+              >lauderdale.erin@gmail.com</a
+            >
 
-          <div class="container mt-5 mb-5 mx-auto">
-              <div class="d-flex flex-row">
-                <div class="d-flex flex-column p-2 dpcontent w-100">
-          
-                  <p>I am always open to new opportunities!</p>
-
-                  <p> lauderdale.erin@gmail.com </p>  
-                      
-                  <p> <a href="https://github.com/lauderdaleerin" target="_blank">Github</a></p>  
-                      
-                  <p> <a href="https://www.linkedin.com/in/erin-lauderdale-505a34195/" target="_blank">LinkedIn</a></div>
-                  
-                  </div>
-
-                  <div class="spacing"></div>
-              </div>
-
-
-
+            <div class="copy">
+              <img src="images/Copy.svg" alt="Copy" />
+            </div>
           </div>
+          <br />
+
+          <a href="https://github.com/lauderdaleerin" target="_blank">Github</a>
+
+          <br />
+
+          <a
+            href="https://www.linkedin.com/in/erin-lauderdale-505a34195/"
+            target="_blank"
+            >LinkedIn</a
+          >
+
+          <br />
+          <p>
+            Homepage image by
+            <a href="https://www.humation.app/" target="_blank">Humation</a>.
+            Icons by <a href="https://iconsax.io//" target="_blank">Iconsax</a>.
+          </p>
         </div>
+      </div>
+    </div>
 
+    <!--------------------------------------------- SITE NAVIGATION -->
+    <div id="navigation">
+      <div class="nav nav-close">
+        <div
+          class="nav-arrow"
+          role="button"
+          aria-label="Navigation Toggle"
+          tabindex="0"
+        >
+          <img
+            src="images/arrowup.svg"
+            class="mobile open"
+            alt="Open Navigation"
+          />
+          <img
+            src="images/arrowright.svg"
+            class="desktop open"
+            alt="Open Navigation"
+          />
 
-
-
-
-
-        <div id ="navigation">
-
-            <div class="h-100 w-100 d-flex flex-column flex-md-row-reverse justify-content-evenly align-items-center">
-                <div class="nav-button-open d-flex " role="button" aria-label="Close" tabindex="0" onclick="show()">
-                  <img src ="images/arrowup.svg" class="nav-arrow-mobile" alt="Up Arrow">
-                  <img src ="images/arrowright.svg" class="nav-arrow-desktop" alt="Right Arrow">
-                </div>
-      
-                <ul class="h-100 d-flex flex-grow-1 flex-column justify-content-evenly align-items-center">
-                  <li class="d-flex "><a href="about.html">About</a></li>
-                  <li class="d-flex "><a href="skills.html">Skills</a></li>
-                  <li class="d-flex "><a href="portfolio.html">Portfolio</a></li>
-                  <li class="d-flex "><a href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-          </div>
-          <div class ="overlay hidden"></div>
-
-          <script src="script.js"></script>
-          <script src="script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    </body>
+          <img
+            src="images/arrowdown.svg"
+            class="mobile close hidden"
+            alt="Close Navigation"
+          />
+          <img
+            src="images/arrowleft.svg"
+            class="desktop close hidden"
+            alt="Close
+          Navigation"
+          />
+        </div>
+        <div class="nav-content">
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a href="about.html"><h1>About</h1></a>
+            </li>
+            <li class="nav-link">
+              <a href="skills.html"><h1>Skills</h1></a>
+            </li>
+            <li class="nav-link">
+              <a href="portfolio.html"><h1>Portfolio</h1></a>
+            </li>
+            <li class="nav-link">
+              <a href="contact.html"><h1>Contact</h1></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- OVERLAY ON OPEN -->
+    <div class="overlay hidden"></div>
+    <!---------------------------------------------- END NAVIGATION -->
+  </body>
 </html>

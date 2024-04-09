@@ -21,7 +21,7 @@ const siteNav = function () {
     }
   };
 
-  navBtn.addEventListener(`click`, navFunc);
+  navBox.addEventListener(`click`, navFunc);
 
   navBtn.addEventListener(`keydown`, function (e) {
     if (e.key === ` `) navFunc();
