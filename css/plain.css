@@ -26,6 +26,8 @@ h4 {
   font-family: 'Ruda', sans-serif;
   color: white;
   text-decoration: underline;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 p,
@@ -40,6 +42,11 @@ a:visited a:hover a:link {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
+.c {
+  font-size: 0.75em;
+}
+
 .outerlink:hover {
   text-decoration: underline;
 }
@@ -87,15 +94,32 @@ a:visited a:hover a:link {
   width: 100%;
   align-items: center;
 }
+
+.reverserow {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1em;
+  width: 100%;
+  align-items: center;
+}
+
 .flexcolumn {
   display: flex;
   flex-direction: column;
   gap: 1em;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
 .no-gap {
-  gap: 0;
+  gap: 0.5em;
 }
 
 .top-align {
@@ -108,6 +132,13 @@ a:visited a:hover a:link {
   gap: 2em;
   align-items: center;
   justify-content: center;
+}
+
+.w75 {
+  width: 100% !important;
+}
+.w50 {
+  width: 50% !important;
 }
 
 .main-img {
@@ -132,6 +163,20 @@ a:visited a:hover a:link {
 .btn-grn:hover {
   background-color: #002c2c;
   box-shadow: none;
+}
+.round-btn {
+  height: 50px;
+  width: 50px;
+  aspect-ratio: 1/1;
+  background-color: var(--dk-green);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.round-btn img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 90%;
+  width: 90%;
 }
 
 .ltpurpbox {
@@ -246,6 +291,51 @@ a:visited a:hover a:link {
   -webkit-filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
 }
+/* CASE STUDIES */
+.cs-img {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.cs-img img {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  -webkit-filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
+}
+
+.edit {
+  display: flex;
+  position: relative;
+  width: 100%;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.edit img {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+}
+
+.dkgrndot {
+  width: 1em;
+  height: 1em;
+  background-color: var(--dk-green);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--dk-purple);
+  border-radius: 50%;
+}
+
+.offset-start {
+  width: 75% !important;
+  align-self: flex-start !important;
+}
+.offset-end {
+  width: 75% !important;
+  align-self: flex-end !important;
+}
 
 /* CONTACT */
 .copy img {
@@ -349,6 +439,15 @@ a:visited a:hover a:link {
   /* SKILLS */
   .skills-img {
     width: 40%;
+  }
+
+  /* CASE STUDIES */
+  .w75 {
+    width: 75% !important;
+  }
+
+  .edit {
+    width: 45%;
   }
 
   /* NAVIGATION */
