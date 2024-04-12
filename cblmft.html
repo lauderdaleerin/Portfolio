@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Advent+Pro"
     />
     <script defer src="js/sitenav.js"></script>
+    <script defer src="js/hoverview.js"></script>
   </head>
 </html>
 
@@ -123,6 +124,82 @@
         <div class="dkpurpbox title"><h3>Heuristic Analysis</h3></div>
       </div>
 
+      <div class="flexrow">
+        <div class="title ltpurpbox"><p>Hover over dots to view</p></div>
+      </div>
+      <!-- HEURISTIC ANALYSIS------>
+      <div class="responsive-content">
+        <div class="cs-img w50">
+          <div class="dots">
+            <div data-tab="1" class="dot cb1"></div>
+            <div data-tab="2" class="dot cb2"></div>
+            <div data-tab="3" class="dot cb3"></div>
+            <div data-tab="4" class="dot cb4"></div>
+            <div data-tab="5" class="dot cb5"></div>
+          </div>
+
+          <div class="descs">
+            <div class="dkgrnbox desc cb1 hidden" data-tab="1">
+              <p>Home link in navigation bar instead of linked logo.</p>
+            </div>
+            <div class="dkgrnbox desc cb2 hidden" data-tab="2">
+              <p>Drop down menus are not keyboard accessible.</p>
+            </div>
+            <div class="dkgrnbox desc cb3 hidden" data-tab="3">
+              <p>
+                Green accent color is hard to read against photo background.
+              </p>
+            </div>
+            <div class="dkgrnbox desc cb4 hidden" data-tab="4">
+              <p>Large blocks of text are not user-friendly.</p>
+            </div>
+            <div class="dkgrnbox desc cb5 hidden" data-tab="5">
+              <p>Client wanted to remove 4th example.</p>
+            </div>
+          </div>
+
+          <img
+            src="images/cblmft/cblmftheuristic1.png"
+            alt="Screenshot of original website"
+          />
+        </div>
+        <div class="cs-img w50">
+          <div class="dots">
+            <div data-tab="6" class="dot cb6"></div>
+            <div data-tab="7" class="dot cb7"></div>
+            <div data-tab="8" class="dot cb8"></div>
+            <div data-tab="9" class="dot cb9"></div>
+            <div data-tab="10" class="dot cb10"></div>
+            <div data-tab="11" class="dot cb11"></div>
+          </div>
+          <div class="descs">
+            <div class="dkgrnbox desc cb6 hidden" data-tab="6">
+              <p>CTA doesn’t stand out from background.</p>
+            </div>
+            <div class="dkgrnbox desc cb7 hidden" data-tab="7">
+              <p>This info is repeated on the linked page.</p>
+            </div>
+            <div class="dkgrnbox desc cb8 hidden" data-tab="8">
+              <p>Tabs are not keyboard accessible.</p>
+            </div>
+            <div class="dkgrnbox desc cb9 hidden" data-tab="9">
+              <p>
+                Second part of client stories are disconnected from the first.
+              </p>
+            </div>
+            <div class="dkgrnbox desc cb10 hidden" data-tab="10">
+              <p>Large quotation marks look out of place.</p>
+            </div>
+            <div class="dkgrnbox desc cb11 hidden" data-tab="11">
+              <p>Header font is used inconsistently.</p>
+            </div>
+          </div>
+          <img
+            src="images/cblmft/cblmftheuristic2.png"
+            alt="Screenshot of original website"
+          />
+        </div>
+      </div>
       <div class="dkgrnbox w75">
         <p>
           I began by doing a heuristic analysis and determining what aspects of
@@ -132,13 +209,57 @@
           edited down, and some inconsistent styling.
         </p>
       </div>
-      <div class="flexrow">
-        <div class="title ltpurpbox"><h4>Hover to view</h4></div>
-      </div>
-      <!-- HEURISTIC ANALYSIS----------------------------------------------------------------------------------------------------------------- -->
+
       <div class="reverserow">
         <div class="dkgrndot"></div>
         <div class="dkpurpbox title"><h3>Homepage Wireframe</h3></div>
+      </div>
+
+      <div class="flexrow">
+        <div class="title ltpurpbox"><p>Hover over dots to view</p></div>
+      </div>
+      <!-- HOMEPAGE WIREFRAME----------------------------------------------------------------------------------------------------- -->
+      <div class="cs-img w50">
+        <div class="dots">
+          <div data-tab="12" class="dot cb12"></div>
+          <div data-tab="13" class="dot cb13"></div>
+          <div data-tab="14" class="dot cb14"></div>
+          <div data-tab="15" class="dot cb15"></div>
+          <div data-tab="16" class="dot cb16"></div>
+          <div data-tab="17" class="dot cb17"></div>
+          <div data-tab="18" class="dot cb18"></div>
+          <div data-tab="19" class="dot cb19"></div>
+        </div>
+        <div class="descs">
+          <div class="dkgrnbox desc cb12 hidden" data-tab="12">
+            <p>Logo becomes home link.</p>
+          </div>
+          <div class="dkgrnbox desc cb13 hidden" data-tab="13">
+            <p>New tagline, agreed on by client.</p>
+          </div>
+          <div class="dkgrnbox desc cb14 hidden" data-tab="14">
+            <p>Introduction to client stories.</p>
+          </div>
+          <div class="dkgrnbox desc cb15 hidden" data-tab="15">
+            <p>Combined story parts into one tab space.</p>
+          </div>
+          <div class="dkgrnbox desc cb16 hidden" data-tab="16">
+            <p>Increased CTA button contrast.</p>
+          </div>
+          <div class="dkgrnbox desc cb17 hidden" data-tab="17">
+            <p>Reduced about section.</p>
+          </div>
+          <div class="dkgrnbox desc cb18 hidden" data-tab="18">
+            <p>Standardized button styling.</p>
+          </div>
+          <div class="dkgrnbox desc cb19 hidden" data-tab="19">
+            <p>Normalized quote styling.</p>
+          </div>
+        </div>
+        <img
+          src="images/cblmft/cblmftwireframe.png"
+          alt="Greyscale wireframe of planned changes to web design."
+        />
       </div>
       <div class="dkgrnbox w75">
         <p>
@@ -150,10 +271,6 @@
           liked best.
         </p>
       </div>
-      <div class="flexrow">
-        <div class="title ltpurpbox"><h4>Hover to view</h4></div>
-      </div>
-      <!-- HOMEPAGE WIREFRAME----------------------------------------------------------------------------------------------------- -->
       <div class="flexrow">
         <div class="dkgrndot"></div>
         <div class="dkpurpbox title"><h3>Content Editing</h3></div>
@@ -507,6 +624,76 @@
         <div class="dkgrndot"></div>
         <div class="dkpurpbox title"><h3>Form Entries</h3></div>
       </div>
+      <div class="responsive-content">
+        <div class="cs-img">
+          <img
+            src="images/cblmft/cblmftforms.png"
+            alt="Form entry graph-
+          April:1 May:2 June: 2 July: 1 August:3 September: 2 October: 2 November: 4"
+          />
+        </div>
+        <div class="dkgrnbox w75">
+          <p>
+            My client has chosen to disable web analytics on her site to
+            maximize client privacy. Therefore, the best metric I have for
+            tracking my design’s performance is the number of new form entries
+            received. The design was launched in early August, and since then
+            the website has consistently received more form entries than before,
+            indicating a positive trend.
+          </p>
+        </div>
+      </div>
+      <div class="btn dkpurpbox">
+        <a href="https://carolbartelsmft.com/" target="_blank"
+          ><h3>Visit the Website</h3></a
+        >
+      </div>
+      <br />
+      <br />
+      <!-- CONCLUSION -->
+      <div class="flexrow">
+        <div class="line"></div>
+        <div class="ltpurpbox title" id="CONCLUSION">
+          <h2>Conclusion</h2>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="flexrow">
+        <div class="dkgrndot"></div>
+        <div class="dkpurpbox title"><h3>Future Steps</h3></div>
+      </div>
+      <div class="ltpurpbox w75">
+        <p>
+          Although I am not planning on continuing to work directly on this
+          project, I do hope to take the following steps to expand my knowledge
+          in these areas:
+        </p>
+        <ol>
+          <li>Wordpress front-end processes</li>
+          <li>WCAG accessibility guidelines</li>
+          <li>Wordpress optimization</li>
+        </ol>
+      </div>
+      <div class="reverserow">
+        <div class="dkgrndot"></div>
+        <div class="dkpurpbox title"><h3>Final Thoughts</h3></div>
+      </div>
+      <div class="dkgrnbox w75">
+        <p>
+          This was the first time actualizing my design process and I learned a
+          lot. I felt very confident at the beginning given that the actual
+          redesign was relatively simple. However, working with Wordpress came
+          with a steep learning curve. I would want to spend some more time
+          working with it and learning the technicalities of it before beginning
+          another project based in Wordpress. I had a good idea of accessibility
+          standards prior to starting as well, but learned quite a bit along the
+          way and still feel I have more to learn. This project strengthened my
+          passion for accessible technology design. I hope to have more
+          opportunities in the future to expand my knowledge in this area!
+        </p>
+      </div>
+      <br />
+      <br />
     </div>
   </div>
   <!--------------------------------------------- SITE NAVIGATION -->

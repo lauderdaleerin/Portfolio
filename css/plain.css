@@ -33,6 +33,7 @@ h4 {
 p,
 li,
 ul,
+ol,
 a,
 a:visited a:hover a:link {
   font-family: 'Ruda', sans-serif;
@@ -82,7 +83,7 @@ a:visited a:hover a:link {
   align-items: center;
   width: 100%;
   max-width: 700px;
-  gap: 30px;
+  gap: 3rem;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -159,6 +160,9 @@ a:visited a:hover a:link {
 .btn:hover {
   background-color: var(--dk-purple);
   box-shadow: none;
+}
+.btn-grn {
+  transition-duration: 1s;
 }
 .btn-grn:hover {
   background-color: #002c2c;
@@ -335,6 +339,108 @@ a:visited a:hover a:link {
 .offset-end {
   width: 75% !important;
   align-self: flex-end !important;
+}
+/* HOVER VIEW */
+.dot {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  background-color: var(--dk-green);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  z-index: 1;
+  transition: 1s;
+}
+.dot:hover {
+  box-shadow: none;
+}
+
+.desc {
+  position: absolute;
+  width: 100px;
+  z-index: 1;
+  transform: translateY(1.5rem) translateX(-45%);
+}
+/* CB HEURISTIC ANALYSIS */
+
+.cb1 {
+  top: 1%;
+  left: 30%;
+}
+.cb2 {
+  top: 3%;
+  left: 82%;
+}
+
+.cb3 {
+  top: 13%;
+  left: 25%;
+}
+.cb4 {
+  top: 36%;
+  left: 53%;
+}
+.cb5 {
+  top: 84%;
+  left: 35%;
+}
+.cb6 {
+  top: 15%;
+  left: 23%;
+}
+.cb7 {
+  top: 40%;
+  left: 90%;
+}
+.cb8 {
+  top: 43%;
+  left: 7%;
+}
+.cb9 {
+  top: 54%;
+  left: 83%;
+}
+
+.cb10 {
+  top: 68%;
+  left: 58%;
+}
+.cb11 {
+  top: 77%;
+  left: 67%;
+}
+/* WIREFRAME */
+.cb12 {
+  top: 1%;
+  left: 33%;
+}
+.cb13 {
+  top: 6%;
+  left: 77%;
+}
+.cb14 {
+  top: 30.7%;
+  left: 60%;
+}
+.cb15 {
+  top: 44.5%;
+  left: 85%;
+}
+.cb16 {
+  top: 70%;
+  left: 70%;
+}
+.cb17 {
+  top: 80%;
+  left: 86%;
+}
+.cb18 {
+  top: 92%;
+  left: 57%;
+}
+.cb19 {
+  top: 97.5%;
+  left: 64%;
 }
 
 /* CONTACT */
