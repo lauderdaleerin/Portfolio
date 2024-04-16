@@ -4,38 +4,28 @@ const storyboard = document.querySelector(`.storyboard`);
 const slides = document.querySelectorAll(`.slide`);
 const btnLeft = document.querySelector(`.slider-btn-left`);
 const btnRight = document.querySelector(`.slider-btn-right`);
-const dots = document.querySelector(`.dots`);
+const dots = document.querySelector(`.snav`);
 
 let curSlide = 0;
 const maxSlides = slides.length - 1;
-
-// const slideHeight = function () {
-//   let maxH = 0;
-//   slides.forEach(s => {
-//     if (s.height >= maxH) {
-//       maxH = s.height;
-//     } else return;
-//   });
-//   storyboard.style.height = `${maxH}px`;
-// };
 
 const createDots = function () {
   slides.forEach((_, i) => {
     dots.insertAdjacentHTML(
       `beforeend`,
-      `<button class="dots-dot" data-slide="${i}"></button>`
+      `<button class="snav-dot" data-slide="${i}"></button>`
     );
   });
 };
 
 const activeDot = function (slide) {
   document
-    .querySelectorAll(`.dots-dot`)
-    .forEach(dot => dot.classList.remove(`dots-dot-active`));
+    .querySelectorAll(`.snav-dot`)
+    .forEach(dot => dot.classList.remove(`snav-dot-active`));
 
   document
-    .querySelector(`.dots-dot[data-slide="${slide}"]`)
-    .classList.add(`dots-dot-active`);
+    .querySelector(`.snav-dot[data-slide="${slide}"]`)
+    .classList.add(`snav-dot-active`);
 };
 
 const slidesFunc = function (slide) {
@@ -81,7 +71,7 @@ document.addEventListener(`keydown`, function (e) {
 });
 
 dots.addEventListener(`click`, function (e) {
-  if (e.target.classList.contains(`dots-dot`)) {
+  if (e.target.classList.contains(`snav-dot`)) {
     const { slide } = e.target.dataset;
     slidesFunc(slide);
     activeDot(slide);
