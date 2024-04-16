@@ -765,31 +765,31 @@ a:visited a:hover a:link {
 
   .storyboard {
     height: 32rem;
+  }
 
-    /* NAVIGATION */
-    .desktop {
-      display: block;
-    }
-    .mobile {
-      display: none;
-    }
-    .nav {
-      height: 100%;
-      width: max-content;
-      flex-direction: row-reverse;
-    }
-    .nav-content {
-      padding: 3rem;
-    }
-    .nav-links {
-      gap: 3rem;
-    }
-    .nav-close {
-      bottom: 0;
-      left: -8.5em;
-    }
-    .nav-close:hover {
-      left: -8em;
-    }
+  /* NAVIGATION */
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .nav {
+    height: 100%;
+    width: max-content;
+    flex-direction: row-reverse;
+  }
+  .nav-content {
+    padding: 3rem;
+  }
+  .nav-links {
+    gap: 3rem;
+  }
+  .nav-close {
+    bottom: 0;
+    left: -8.5em;
+  }
+  .nav-close:hover {
+    left: -8em;
   }
 }
