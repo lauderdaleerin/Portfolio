@@ -126,6 +126,11 @@ a:visited a:hover a:link {
   justify-content: space-evenly;
   gap: 3em;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .responsive-content {
   display: flex;
@@ -331,6 +336,23 @@ a:visited a:hover a:link {
   margin-right: -30%;
 }
 .pmbahero2 {
+  align-self: flex-end;
+}
+
+.parhero {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  width: 50%;
+}
+
+.parhero1 {
+  width: 50%;
+  margin-bottom: 3em;
+}
+
+.parhero2 {
+  width: 50%;
   align-self: flex-end;
 }
 
@@ -566,6 +588,20 @@ a:visited a:hover a:link {
   /* IN THE END */
   overflow: hidden;
 }
+.spar {
+  height: 35rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.spar img {
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  border-radius: 11px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
 
 .slide {
   position: absolute;
@@ -580,6 +616,8 @@ a:visited a:hover a:link {
   transition: transform 1s;
 }
 .slide-content {
+  display: flex;
+  flex-direction: column;
   width: 80%;
   min-width: 300px;
   position: relative;
