@@ -376,35 +376,6 @@ a:visited a:hover a:link {
   border: 1px solid var(--dk-purple);
   border-radius: 50%;
 }
-.medpurpdot {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  background-color: var(--med-purple);
-  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
-  border: 1px solid var(--dk-green);
-  border-radius: 50%;
-  aspect-ratio: 1/1;
-  margin-left: -8%;
-  margin-top: -32%;
-  z-index: 2;
-}
-.dotdesk {
-  width: 30px;
-  margin-top: -21%;
-}
-.dotcard {
-  width: 65px;
-  margin-top: -78%;
-}
-.dothoney1 {
-  width: 65px;
-  margin-top: -62%;
-}
-.dothoney2 {
-  width: 65px;
-  margin-top: -28%;
-}
 
 .gifsize {
   width: 33%;
@@ -446,6 +417,94 @@ a:visited a:hover a:link {
 }
 .colorcaption p {
   color: black;
+}
+
+/* Labelling dots */
+.medpurpdot {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  background-color: var(--med-purple);
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--dk-green);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  margin-left: -8%;
+  margin-top: -32%;
+  z-index: 2;
+}
+.dotdesk {
+  width: 30px;
+  margin-top: -21%;
+}
+.dotcard {
+  width: 65px;
+  margin-top: -78%;
+}
+.dothoney1 {
+  width: 65px;
+  margin-top: -62%;
+}
+.dothoney2 {
+  width: 65px;
+  margin-top: -28%;
+}
+
+.dotprhome {
+  margin-top: -68%;
+}
+.dotprhome2 {
+  margin-top: -89%;
+  margin-left: -9%;
+}
+
+.prhome {
+  justify-content: center;
+  gap: -0.5em;
+}
+.dotprfilter {
+  width: 65px;
+  margin-top: -65%;
+}
+
+.dotprmap1 {
+  width: 65px;
+  margin-top: -37%;
+}
+
+.dotprmap2 {
+  width: 65px;
+  margin-top: -122%;
+}
+.dotprweb1 {
+  width: 30px;
+  margin-top: -53%;
+}
+.dotprweb2 {
+  width: 30px;
+  margin-top: -42%;
+}
+
+.dotprhero1 {
+  width: 30px;
+  margin-top: -45%;
+}
+.dotprhero2 {
+  width: 30px;
+  margin-top: -70%;
+}
+
+.dotprfeat1 {
+  width: 65px;
+  margin-top: -95%;
+}
+.dotprfeat2 {
+  width: 65px;
+  margin-top: -40%;
+}
+.dotprfeat3 {
+  width: 30px;
+  margin-top: -48%;
 }
 
 /* HOVER VIEW */
@@ -589,7 +648,7 @@ a:visited a:hover a:link {
   overflow: hidden;
 }
 .spar {
-  height: 35rem !important;
+  height: 28rem !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -618,6 +677,7 @@ a:visited a:hover a:link {
 .slide-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 80%;
   min-width: 300px;
   position: relative;
@@ -796,6 +856,10 @@ a:visited a:hover a:link {
   .edit {
     width: 45%;
   }
+  .prhome {
+    justify-content: space-evenly;
+    gap: 3em;
+  }
 
   .desc {
     transform: translateY(1.5rem) translateX(-45%);
@@ -803,6 +867,9 @@ a:visited a:hover a:link {
 
   .storyboard {
     height: 32rem;
+  }
+  .spar {
+    height: 35rem !important;
   }
 
   /* NAVIGATION */
