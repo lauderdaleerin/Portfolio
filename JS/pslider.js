@@ -14,7 +14,7 @@ slides.forEach((slide, i) => {
 });
 
 //Move order of slides when buttons are pressed
-btnLeft.addEventListener(`click`, function () {
+btnRight.addEventListener(`click`, function () {
   slides.forEach(slide => {
     let order = Number(slide.style.order);
     if (order === 0) {
@@ -31,7 +31,7 @@ btnLeft.addEventListener(`click`, function () {
   });
 });
 
-btnRight.addEventListener(`click`, function () {
+btnLeft.addEventListener(`click`, function () {
   slides.forEach(slide => {
     let order = Number(slide.style.order);
     if (order === slides.length - 1) {

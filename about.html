@@ -3,128 +3,188 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Erin Lauderdale's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/plain.css" />
+    <link rel="stylesheet" type="text/css" href="css/new.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Ruda"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Advent+Pro"
     />
-    <script defer src="JS/sitenav.js"></script>
+    <script defer src="JS/newmenu.js"></script>
+    <script defer src="JS/bubbles.js"></script>
   </head>
+</html>
+<body>
+  <!-- HEADER & MENU
+       -------------------------------------------------------------- -->
+  <div class="desktop-header">
+    <div class="logo">
+      <a href="index.html"><img src="/Portfolio/images/logo.svg" /></a>
+    </div>
+    <ul class="menu">
+      <li>
+        <a href="about.html">
+          <h2 class="menu-text">About</h2>
+          <div class="menu-item"></div
+        ></a>
+      </li>
+      <li>
+        <a href="services.html">
+          <h2 class="menu-text">Services</h2>
+          <div class="menu-item"></div>
+        </a>
+      </li>
+      <li>
+        <a href="work.html">
+          <h2 class="menu-text">Work</h2>
+          <div class="menu-item"></div>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <h2 class="menu-text">Contact</h2>
+          <div class="menu-item"></div
+        ></a>
+      </li>
+    </ul>
+  </div>
 
-  <body>
-    <a href="index.html">
-      <img src="images/Logo.svg" class="logo" alt="ELDEV logo" />
-    </a>
-
-    <div class="page">
-      <div class="content">
-        <div class="flexrow">
-          <div class="title ltpurpbox"><h1>About</h1></div>
-          <div class="line"></div>
-        </div>
-
-        <div class="responsive-content">
-          <div class="about-img">
-            <img
-              src="images/aboutphoto.png"
-              alt="A full body photo of Erin dancing barefoot on a dark stage"
-            />
-          </div>
-
-          <div class="about-text">
-            <div class="dkgrnbox highlight">
-              <h2 class="highlight">Hi! I’m Erin!</h2>
-              <br />
-              <h3>I’m an artist, designer, and developer.</h3>
-            </div>
-
-            <div class="dkgrnbox">
-              <p>
-                My goal is to combine art, design, and technology to create
-                visually-pleasing, accessible websites for all. I'm passionate
-                about creating an online world where everyone can participate.
-              </p>
-            </div>
-
-            <div class="dkgrnbox">
-              <p>
-                I love bold graphics and bright colors, but if you don’t, that’s
-                okay! Design may be subjective, but accessibility is not. I care
-                about improving your website design and user-friendliness for
-                all.
-              </p>
-            </div>
-            <div class="dkgrnbox">
-              <p>
-                Let’s work together to breathe new life into your online
-                presence!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <a class="ltpurpbox btn" href="portfolio.html" role="button"
-          ><h3 class="mb-0">View My Work</h3></a
-        >
+  <div class="mobile-header-cont">
+    <div class="mobile-header">
+      <div class="logo">
+        <a href="index.html"><img src="/Portfolio/images/logo.svg" /></a>
+      </div>
+      <div class="hamburger">
+        <img class="menu-icon" src="images/icons/tridot.svg" />
       </div>
     </div>
+    <div class="mobile-menu">
+      <div class="mm-item">
+        <a href="about.html">
+          <h2>About</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="services.html">
+          <h2>Services</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="work.html">
+          <h2>Work</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="contact.html">
+          <h2>Contact</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- ------- -->
 
-    <!--------------------------------------------- SITE NAVIGATION -->
-    <div id="navigation">
-      <div class="nav nav-close">
-        <div
-          class="nav-arrow"
-          role="button"
-          aria-label="Navigation Toggle"
-          tabindex="0"
-        >
-          <img
-            src="images/arrowup.svg"
-            class="mobile open"
-            alt="Open Navigation"
-          />
-          <img
-            src="images/arrowright.svg"
-            class="desktop open"
-            alt="Open Navigation"
-          />
+  <div class="page-content">
+    <div class="inner-content">
+      <div class="page-header">
+        <h1>About</h1>
+        <div class="y-box"></div>
+      </div>
+      <div class="content-row">
+        <div class="about-text">
+          <p>Hi! I’m Erin! I’m an artist, designer, and developer.</p>
 
-          <img
-            src="images/arrowdown.svg"
-            class="mobile close hidden"
-            alt="Close Navigation"
-          />
-          <img
-            src="images/arrowleft.svg"
-            class="desktop close hidden"
-            alt="Close
-        Navigation"
-          />
-        </div>
-        <div class="nav-content">
-          <ul class="nav-links">
-            <li class="nav-link">
-              <a href="about.html"><h2>About</h2></a>
+          <p>
+            My goal as a creative is to elevate the user experience through art
+            and design to be more accessible. Technology should be designed for
+            the end-user, and I help facilitate that.
+          </p>
+          <p>
+            I love bold graphics and bright colors, but if you don’t, that’s
+            okay! Design may be subjective, but accessibility is not. I’m
+            passionate about improving your website design and user-friendliness
+            for all.
+          </p>
+          <p>
+            Let’s work together to breathe new life into your online presence.
+          </p>
+          <div class="subheader">
+            <div class="subheader-content">
+              <img src="/Portfolio/images/icons/book.svg" />
+              <h3>Education</h3>
+            </div>
+            <div class="y-box"></div>
+          </div>
+          <ul>
+            <li>
+              UX/UI Design Bootcamp Certificate- University of Oregon, May 2023
             </li>
-            <li class="nav-link">
-              <a href="skills.html"><h2>Skills</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="portfolio.html"><h2>Portfolio</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="contact.html"><h2>Contact</h2></a>
-            </li>
+            <li>Bachelor’s Degree- Reed College, May 2019</li>
           </ul>
         </div>
+        <div class="about-img">
+          <img src="/Portfolio/images/headshot.png" />
+          <div class="b-img-box"></div>
+        </div>
+      </div>
+      <div class="skills-bubbles">
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/figma.svg" />
+          </div>
+          <div class="hidden-txt"><h5>Figma</h5></div>
+        </div>
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/adobe.svg" />
+          </div>
+          <div class="hidden-txt"><h5>Adobe Creative Cloud</h5></div>
+        </div>
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/wp.svg" />
+          </div>
+
+          <div class="hidden-txt"><h5>Wordpress</h5></div>
+        </div>
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/html.svg" />
+          </div>
+          <div class="hidden-txt"><h5>HTML</h5></div>
+        </div>
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/css.svg" />
+          </div>
+          <div class="hidden-txt"><h5>CSS</h5></div>
+        </div>
+
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/js.svg" />
+          </div>
+          <div class="hidden-txt"><h5>Javascript</h5></div>
+        </div>
+
+        <div class="bubble">
+          <div class="p-circle">
+            <img src="/Portfolio/images/icons/github.svg" />
+          </div>
+          <div class="hidden-txt"><h5>Github</h5></div>
+        </div>
+      </div>
+      <div class="content-row center-align justify-center">
+        <button class="g-btn" type="button">
+          <a href="Lauderdale-Resume.pdf" target="_blank"> Download Resume</a>
+        </button>
+        <button class="g-btn" type="button">
+          <a href="work.html">View My Work</a>
+        </button>
       </div>
     </div>
-    <!-- OVERLAY ON OPEN -->
-    <div class="overlay hidden"></div>
-    <!---------------------------------------------- END NAVIGATION -->
-  </body>
-</html>
+  </div>
+</body>

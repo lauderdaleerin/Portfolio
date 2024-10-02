@@ -3,105 +3,109 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Erin Lauderdale's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/plain.css" />
+    <link rel="stylesheet" type="text/css" href="css/new.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Ruda"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Advent+Pro"
     />
-    <script defer src="JS/sitenav.js"></script>
+    <script defer src="JS/newmenu.js"></script>
   </head>
-
-  <body>
-    <a href="index.html">
-      <img src="images/Logo.svg" class="logo" alt="ELDEV logo" />
-    </a>
-    <div class="page">
-      <div class="content">
-        <div class="flexrow">
-          <div class="title ltpurpbox"><h1>Hi! I'm Erin</h1></div>
-          <div class="line"></div>
-        </div>
-
-        <div class="main-img">
-          <div class="index-img">
-            <img
-              src="images/cartoonself.png"
-              alt="A cartoon version of Erin, a white non-binary person with short green hair, wearing a purple hoodie and a red flower on their head."
-            />
-          </div>
-
-          <div class="dkpurpbox">
-            <h2>
-              I’m a web designer, developer, artist, and cat lover living in
-              Portland, Oregon.
-            </h2>
-          </div>
-        </div>
-        <div class="flexrow">
-          <div class="line"></div>
-          <a class="ltpurpbox btn" role="button" href="about.html">
-            <h2>More about me ⇨</h2>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!--------------------------------------------- SITE NAVIGATION -->
-    <div id="navigation">
-      <div class="nav nav-close">
-        <div
-          class="nav-arrow"
-          role="button"
-          aria-label="Navigation Toggle"
-          tabindex="0"
-        >
-          <img
-            src="images/arrowup.svg"
-            class="mobile open"
-            alt="Open Navigation"
-          />
-          <img
-            src="images/arrowright.svg"
-            class="desktop open"
-            alt="Open Navigation"
-          />
-
-          <img
-            src="images/arrowdown.svg"
-            class="mobile close hidden"
-            alt="Close Navigation"
-          />
-          <img
-            src="images/arrowleft.svg"
-            class="desktop close hidden"
-            alt="Close
-        Navigation"
-          />
-        </div>
-        <div class="nav-content">
-          <ul class="nav-links">
-            <li class="nav-link">
-              <a href="about.html"><h2>About</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="skills.html"><h2>Skills</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="portfolio.html"><h2>Portfolio</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="contact.html"><h2>Contact</h2></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- OVERLAY ON OPEN -->
-    <div class="overlay hidden"></div>
-    <!---------------------------------------------- END NAVIGATION -->
-  </body>
 </html>
+<body>
+  <!-- HEADER & MENU
+   -------------------------------------------------------------- -->
+  <div class="desktop-header">
+    <div class="logo">
+      <a href="index.html"><img src="/Portfolio/images/logo.svg" /></a>
+    </div>
+    <ul class="menu">
+      <li>
+        <a href="about.html">
+          <h2 class="menu-text">About</h2>
+          <div class="menu-item"></div
+        ></a>
+      </li>
+      <li>
+        <a href="services.html">
+          <h2 class="menu-text">Services</h2>
+          <div class="menu-item"></div>
+        </a>
+      </li>
+      <li>
+        <a href="work.html">
+          <h2 class="menu-text">Work</h2>
+          <div class="menu-item"></div>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <h2 class="menu-text">Contact</h2>
+          <div class="menu-item"></div
+        ></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mobile-header-cont">
+    <div class="mobile-header">
+      <div class="logo">
+        <a href="index.html"><img src="/Portfolio/images/logo.svg" /></a>
+      </div>
+      <div class="hamburger">
+        <img class="menu-icon" src="images/icons/tridot.svg" />
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="mm-item">
+        <a href="about.html">
+          <h2>About</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="services.html">
+          <h2>Services</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="work.html">
+          <h2>Work</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="contact.html">
+          <h2>Contact</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- ------- -->
+
+  <div class="page-content">
+    <div class="main-heading">
+      <h1>Hi! I'm Erin</h1>
+      <div class="g-box"></div>
+    </div>
+    <div class="hero">
+      <div class="headshot">
+        <img src="/Portfolio/images/headshot.png" />
+        <div class="y-hero-box"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <h2>
+            I'm a designer, developer, artist, and cat lover based in
+            <span class="p-highlight">Portland, Oregon</span>.
+          </h2>
+        </div>
+        <button class="g-btn" type="button">View My Work</button>
+      </div>
+    </div>
+  </div>
+</body>

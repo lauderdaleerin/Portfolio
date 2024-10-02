@@ -3,130 +3,142 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Erin Lauderdale's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/plain.css" />
+    <link rel="stylesheet" type="text/css" href="css/new.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Ruda"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Advent+Pro"
     />
-    <script defer src="JS/sitenav.js"></script>
-    <script defer src="JS/copy.js"></script>
+    <script defer src="JS/newmenu.js"></script>
+    <script defer src="JS/bubbles.js"></script>
   </head>
-
-  <body>
-    <a href="index.html">
-      <img src="images/Logo.svg" class="logo" alt="ELDEV logo" />
-    </a>
-
-    <div class="page">
-      <div class="content">
-        <div class="flexrow">
-          <div class="title ltpurpbox"><h1>Contact</h1></div>
-          <div class="line"></div>
-        </div>
-
-        <div class="dkgrnbox">
-          <p>I am always open to new opportunities!</p>
-          <br />
-          <div class="flexrow">
-            <a class="outerlink" href="mailto:lauderdale.erin@gmail.com"
-              >lauderdale.erin@gmail.com</a
-            >
-
-            <div class="copy">
-              <img src="images/Copy.svg" alt="Copy" />
-            </div>
-          </div>
-          <br />
-
-          <a
-            class="outerlink"
-            href="https://github.com/lauderdaleerin"
-            target="_blank"
-            >Github</a
-          >
-
-          <br />
-
-          <a
-            class="outerlink"
-            href="https://www.linkedin.com/in/erin-lauderdale-505a34195/"
-            target="_blank"
-            >LinkedIn</a
-          >
-
-          <br />
-          <p>
-            Homepage image by
-            <a
-              class="outerlink"
-              href="https://www.humation.app/"
-              target="_blank"
-              >Humation</a
-            >. Icons by
-            <a class="outerlink" href="https://iconsax.io//" target="_blank"
-              >Iconsax</a
-            >.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!--------------------------------------------- SITE NAVIGATION -->
-    <div id="navigation">
-      <div class="nav nav-close">
-        <div
-          class="nav-arrow"
-          role="button"
-          aria-label="Navigation Toggle"
-          tabindex="0"
-        >
-          <img
-            src="images/arrowup.svg"
-            class="mobile open"
-            alt="Open Navigation"
-          />
-          <img
-            src="images/arrowright.svg"
-            class="desktop open"
-            alt="Open Navigation"
-          />
-
-          <img
-            src="images/arrowdown.svg"
-            class="mobile close hidden"
-            alt="Close Navigation"
-          />
-          <img
-            src="images/arrowleft.svg"
-            class="desktop close hidden"
-            alt="Close
-          Navigation"
-          />
-        </div>
-        <div class="nav-content">
-          <ul class="nav-links">
-            <li class="nav-link">
-              <a href="about.html"><h2>About</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="skills.html"><h2>Skills</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="portfolio.html"><h2>Portfolio</h2></a>
-            </li>
-            <li class="nav-link">
-              <a href="contact.html"><h2>Contact</h2></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- OVERLAY ON OPEN -->
-    <div class="overlay hidden"></div>
-    <!---------------------------------------------- END NAVIGATION -->
-  </body>
 </html>
+<body>
+  <!-- HEADER & MENU
+       -------------------------------------------------------------- -->
+  <div class="desktop-header">
+    <div class="logo">
+      <a href="index.html"><img src="/Portfolio/images/logo.svg" /></a>
+    </div>
+    <ul class="menu">
+      <li>
+        <a href="about.html">
+          <h2 class="menu-text">About</h2>
+          <div class="menu-item"></div
+        ></a>
+      </li>
+      <li>
+        <a href="services.html">
+          <h2 class="menu-text">Services</h2>
+          <div class="menu-item"></div>
+        </a>
+      </li>
+      <li>
+        <a href="work.html">
+          <h2 class="menu-text">Work</h2>
+          <div class="menu-item"></div>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <h2 class="menu-text">Contact</h2>
+          <div class="menu-item"></div
+        ></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mobile-header-cont">
+    <div class="mobile-header">
+      <div class="logo">
+        <a href="index.html"><img src="/Portfolio/images/logo.svg" /></a>
+      </div>
+      <div class="hamburger">
+        <img class="menu-icon" src="images/icons/tridot.svg" />
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="mm-item">
+        <a href="about.html">
+          <h2>About</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="services.html">
+          <h2>Services</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="work.html">
+          <h2>Work</h2>
+        </a>
+      </div>
+      <div class="mm-item">
+        <a href="contact.html">
+          <h2>Contact</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- ------- -->
+
+  <div class="page-content">
+    <div class="inner-content">
+      <div class="page-header">
+        <h1>Contact</h1>
+        <div class="y-box"></div>
+      </div>
+      <br />
+      <div class="subheader-content">
+        <h3>Let's work together!</h3>
+      </div>
+      <div class="skills-bubbles contact">
+        <div class="bubble">
+          <div class="p-circle">
+            <a href="https://linkedin.com/in/erin-lauderdale/" target="_blank">
+              <img src="/Portfolio/images/icons/linkedin.svg"
+            /></a>
+          </div>
+          <div class="hidden-txt">
+            <a href="https://linkedin.com/in/erin-lauderdale/" target="_blank">
+              <h5>LinkedIn</h5></a
+            >
+          </div>
+        </div>
+        <div class="bubble">
+          <div class="p-circle">
+            <a href="https://github.com/lauderdaleerin" target="_blank">
+              <img src="/Portfolio/images/icons/github.svg"
+            /></a>
+          </div>
+          <div class="hidden-txt">
+            <h5>
+              <a href="https://github.com/lauderdaleerin" target="_blank"
+                >Github</a
+              >
+            </h5>
+          </div>
+        </div>
+        <div class="bubble">
+          <div class="p-circle">
+            <a href="mailto:lauderdale.erin@gmail.com">
+              <img src="/Portfolio/images/icons/mail.svg"
+            /></a>
+          </div>
+          <div class="hidden-txt">
+            <h5>
+              <a href="mailto:lauderdale.erin@gmail.com"
+                >lauderdale.erin@gmail.com</a
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
