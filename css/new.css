@@ -657,11 +657,13 @@ h3 {
 
 .slider-img {
   display: flex;
-  width: 50%;
+  height: 50vh;
   align-self: center;
 }
 
 .slider-img img {
+  object-fit: contain;
+  width: 100%;
   filter: drop-shadow(0.25rem 0.25rem rgba(0, 0, 0, 0.35));
 }
 .mini-img {
