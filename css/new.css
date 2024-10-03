@@ -113,6 +113,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .desktop-header {
   display: flex;
   flex-direction: row;
@@ -792,6 +796,16 @@ h3 {
   .content-row {
     flex-direction: column;
     align-items: center;
+  }
+  .m-row-reverse {
+    flex-direction: column-reverse;
+  }
+  .hero-content {
+    gap: 0.5em;
+  }
+
+  .hero {
+    max-width: 100%;
   }
 
   .about-img {
