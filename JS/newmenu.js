@@ -18,7 +18,7 @@ const menuIcon = document.querySelector(`.menu-icon`);
 
 mobileBtn.addEventListener(`click`, function () {
   if (mobileMenu.style.display === `none`) {
-    menuIcon.src = `/Portfolio/images/new/icons/x.svg`;
+    menuIcon.src = `Portfolio/images/icons/x.svg`;
 
     mobileBtn.style.backgroundColor = `#00bdaa`;
     mobileBtn.style.boxShadow = `inset .25rem .25rem rgba(0, 0, 0, 0.35)`;
