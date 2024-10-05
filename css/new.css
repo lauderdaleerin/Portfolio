@@ -215,14 +215,13 @@ img {
 .headshot {
   display: flex;
   flex-direction: column;
-  height: 100%;
   width: 50%;
-  object-fit: cover;
 }
 .headshot img {
-  display: flex;
+  object-fit: contain;
+
   height: 100%;
-  width: auto;
+  width: 100%;
   max-width: 25em;
 }
 
@@ -733,6 +732,34 @@ h3 {
 }
 
 @media (max-width: 39em) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+  .g-btn {
+    font-size: 1.25rem;
+  }
+
   .page-content {
     margin-left: 0;
     margin-right: 0;
@@ -803,9 +830,21 @@ h3 {
   .hero-content {
     gap: 0.5em;
   }
+  .y-hero-box {
+    height: 8em;
+    margin-top: -10em;
+  }
 
   .hero {
+    margin-right: 3%;
+    margin-left: 3%;
     max-width: 100%;
+    gap: 0;
+  }
+  .headshot {
+    width: 60%;
+    position: relative;
+    margin-top: -4em;
   }
 
   .about-img {
