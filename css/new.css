@@ -752,10 +752,13 @@ h3 {
   }
   p {
     font-size: 1rem;
+    padding-right: 3%;
+    padding-left: 3%;
   }
   li {
     font-size: 1rem;
   }
+
   .g-btn {
     font-size: 1.25rem;
   }
@@ -773,7 +776,10 @@ h3 {
     justify-content: space-between;
     padding: 4%;
 
-    align-items: flex-end;
+    align-items: center;
+  }
+  .logo {
+    width: 40%;
   }
   .hamburger {
     display: flex;
@@ -847,31 +853,40 @@ h3 {
     margin-top: -4em;
   }
 
-  .about-img {
+  .b-img-box {
     width: 100%;
+  }
+  .about-img img {
+    width: 70%;
   }
 
   .about-text {
     width: 100%;
   }
   .about-text p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .about-text li {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .subheader-content {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
+
   .skills-bubbles {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 3em;
+  }
+  .services-width {
+    width: 100%;
+    margin-right: 3%;
+    margin-left: 3%;
   }
   .pslide {
     display: block;
