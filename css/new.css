@@ -840,6 +840,9 @@ h3 {
     height: 8em;
     margin-top: -10em;
   }
+  .circle {
+    width: 2em;
+  }
 
   .hero {
     margin-right: 3%;
@@ -896,6 +899,9 @@ h3 {
     left: 0;
     top: 0;
   }
+  .pslide:hover {
+    width: 100%;
+  }
   .inactive {
     opacity: 100%;
     scale: 100%;
@@ -906,6 +912,18 @@ h3 {
 
   .pslider-btn {
     display: none;
+  }
+  .phone-mockup {
+    width: 32%;
+    margin-right: -6em;
+    margin-top: 2.5em;
+  }
+  .laptop-mockup {
+    width: 75%;
+  }
+  .mobile-margin {
+    margin-right: 3%;
+    margin-left: 3%;
   }
   .cs-desc {
     width: 90%;
@@ -932,6 +950,7 @@ h3 {
   }
   .slider-img {
     width: 70%;
+    height: 25vh;
   }
   .perm-row {
     gap: 1em;
