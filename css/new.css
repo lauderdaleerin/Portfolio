@@ -379,6 +379,9 @@ img {
 .row-reverse {
   flex-direction: row-reverse;
 }
+.wrap {
+  flex-wrap: wrap;
+}
 
 .center-align {
   align-items: center;
@@ -731,7 +734,21 @@ h3 {
   width: 15%;
 }
 
-@media (max-width: 39em) {
+.bottom-pad {
+  padding-bottom: 3em;
+}
+.top-pad {
+  padding-top: 1em;
+}
+
+.cta-end {
+  width: fit-content;
+  padding: 1em;
+  margin-top: 4em;
+  background-color: var(--yellow);
+}
+
+@media (max-width: 50em) {
   h1 {
     font-size: 2rem;
   }
@@ -781,6 +798,7 @@ h3 {
   .logo {
     width: 40%;
   }
+
   .hamburger {
     display: flex;
     justify-content: center;
