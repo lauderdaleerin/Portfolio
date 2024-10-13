@@ -878,6 +878,7 @@ h3 {
   }
   .m-row-reverse {
     flex-direction: column-reverse;
+    gap: 3em;
   }
   .hero-content {
     gap: 0.5em;
