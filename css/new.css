@@ -537,6 +537,15 @@ h3 {
   cursor: pointer;
 }
 
+.w-box {
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.35);
+  padding: 1em;
+
+  max-width: 100%;
+}
+
 .p-btn:hover {
   box-shadow: inset 0.25rem 0.25rem rgba(0, 0, 0, 0.35);
   background-color: var(--blue);
