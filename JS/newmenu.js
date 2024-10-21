@@ -18,7 +18,7 @@ const menuIcon = document.querySelector(`.menu-icon`);
 
 mobileBtn.addEventListener(`click`, function () {
   if (mobileMenu.style.display === `none`) {
-    menuIcon.src = `/Portfolio/images/icons/x-icon.svg`;
+    menuIcon.src = `https://raw.githubusercontent.com/lauderdaleerin/Portfolio/8e2199e0a5ebcf7acb297d7986bf516b50d06e46/images/icons/x-icon.svg`;
     menuIcon.classList.add(`icon`);
     mobileBtn.style.backgroundColor = `#00bdaa`;
     mobileBtn.style.boxShadow = `inset .25rem .25rem rgba(0, 0, 0, 0.35)`;
