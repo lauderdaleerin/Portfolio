@@ -27,7 +27,7 @@ mobileBtn.addEventListener(`click`, function () {
       item.style.height = `2.5em`;
     });
   } else {
-    menuIcon.src = `/Portfolio/images/icons/tridot.svg`;
+    menuIcon.src = `https://raw.githubusercontent.com/lauderdaleerin/Portfolio/5e244147c4141c7d2e9e1f852dc5211a8a606b0b/images/icons/tridot.svg`;
     mobileBtn.style.backgroundColor = `#a1dd70`;
     mobileBtn.style.boxShadow = `0.25rem 0.25rem rgba(0, 0, 0, 0.35)`;
     mobileMenu.style.display = `none`;
