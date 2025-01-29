@@ -7,7 +7,7 @@ text.forEach(function (text, i) {
     line[i].style.backgroundColor = `#a45fe6`;
   });
   text.addEventListener(`mouseout`, function () {
-    line[i].style.backgroundColor = `#ffea30`;
+    line[i].style.backgroundColor = `#FFFFFF`;
   });
 });
 

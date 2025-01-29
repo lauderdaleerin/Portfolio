@@ -144,6 +144,13 @@ img {
   align-items: flex-end;
 }
 
+.logo-img {
+  width: 140%;
+  max-width: 140%;
+  padding-left: 40%;
+  padding-top: 15%;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -166,7 +173,7 @@ img {
 
 .menu-item {
   display: flex;
-  background-color: var(--yellow);
+  background-color: white;
   width: auto;
   height: 0.5rem;
   margin-top: -1rem;
