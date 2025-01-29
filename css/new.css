@@ -948,26 +948,34 @@ h3 {
     gap: 3em;
   }
   .hero-content {
-    gap: 0.5em;
+    gap: 1em;
+  }
+  .hero-text {
+    text-align: left;
+    width: 100%;
   }
   .y-hero-box {
     height: 8em;
+    margin-left: -2em;
+    margin-right: 2em;
     margin-top: -10em;
+    width: 120%;
   }
   .circle {
     width: 2em;
   }
 
   .hero {
+    flex-direction: column-reverse;
     margin-right: 3%;
     margin-left: 3%;
     max-width: 100%;
+    margin-top: 8em;
     gap: 0;
   }
   .headshot {
     width: 80%;
     position: relative;
-    margin-top: -4em;
     margin-left: 0;
   }
 
